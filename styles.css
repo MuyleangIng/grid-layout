@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #333; */
+}
+.grid-bg{
+    background-color: #989898;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+    min-height: 100vh;
+    padding: 2rem;
+}
+/* header */
+.main-header {
+    color: white ;
+    margin-bottom: 2rem;
+}
+.main-header h1 {
+    font-size: 2.5rem;
+}
+/* Navigation */
+.main-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    background-color: #f9f9f9;
+    margin-bottom: 2rem;
+    /* gap: 1px; */
+}
+/* a tag only  */
+.nav-item {
+    border: 1px solid #ddd ;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+.nav-item:hover{
+    background-color: rgb(228, 228, 228);
+}
+/* Content section Main */
+.content {
+    display: grid;
+    gap: 2rem
+}
+/* .card {
+    background-color: white;
+    border-radius: 4px;
+    padding: 2rem;
+} */
+ /* section1 card */
+.dark-section{
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    border-radius: 4px;
+}
+/* section2 card */
+.white-section{
+    background-color: #fafafa;
+    color:#333;
+    padding: 2rem;
+    border-radius: 4px;
+}
+/* section3 card */
+.purple-section{
+    background-color: #673ab7;
+    color:#333;
+    padding: 2rem;
+    border-radius: 4px;
+}
+/* section4 two col */
+.two-col-section{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+/* section5 3 col */
+.three-col-section{
+    
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    
+}
